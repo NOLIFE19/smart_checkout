@@ -3,7 +3,7 @@
 
 try:
     cart_total = int(input("enter price in lari?"))
-except:
+except ValueError as e:
   print("nu maimunob")
 
 #   ეს დღევანდელ ლექციაზე დავამატე
